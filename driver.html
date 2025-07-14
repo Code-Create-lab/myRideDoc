@@ -1,0 +1,637 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OvoRide - The Complete Cross Platform Ride Sharing Solution | Rider App | Driver App | Landing Page </title>
+    <meta name="title" Content="The Complete Cross Platform Ride Sharing Solution">
+    <meta name="description"
+        content="OvoRide is a complete ride-sharing solution designed to simplify transportation and connect riders with drivers seamlessly. With dedicated apps for both riders and drivers, plus a powerful admin panel for total control, OvoRide offers a robust, feature-rich platform for managing ride services efficiently. Whether you&#039;re looking to launch a ride-hailing business or optimize fleet operations, OvoRide is your all-in-one solution.">
+
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontasosome -->
+    <link rel="stylesheet" href="assets/css/fontasosome.min.css">
+    <!-- Prism Slider -->
+    <link rel="stylesheet" href="assets/css/prism.css">
+    <!-- line Awesome -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="assets/css/file-explore.css" />
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <!--==================== Preloader Start ====================-->
+    <div class="preloader">
+        <div class="loader-p"></div>
+    </div>
+    <!--==================== Preloader End ====================-->
+    <!--==================== Body Overlay Start ====================-->
+    <div class="body-overlay"></div>
+    <!--==================== Body Overlay End ====================-->
+    <!--==================== Sidebar Overlay Start ====================-->
+    <div class="sidebar-overlay"></div>
+    <!--==================== Sidebar Overlay End ====================-->
+    <!-- ==================== Scroll To Top Start ==================== -->
+    <a class="scroll-top"><i class="fas fa-angle-double-up"></i></a>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light flex-lg-column">
+                <a class="navbar-brand logo" href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                <button class="navbar-toggler header-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span id="hiddenNav"><i class="las la-bars"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-menu ms-auto align-items-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Web</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rider.html">Rider App</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="driver.html">Driver App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#support">Get Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="documentation" class="scrollspy-example bg-body-tertiary" data-bs-offset="80"
+        data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" data-bs-spy="scroll"
+        data-bs-target="#navbar-example2" tabindex="0">
+        <!-- <div class="gradient-shadow"></div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="documentation__inner">
+                        <div class="sidebar-menu flex-between" id="navbar-example2">
+                            <div class="sidebar-menu__inner">
+                                <div class="sidebar-menu__logo d-lg-none d-flex">
+                                    <a href="#" class="sidebar-menu__logo-link">
+                                        <img src="assets/images/logo/logo.png" alt="">
+                                    </a>
+                                </div>
+                                <span class="sidebar-menu__close d-lg-none d-inline-flex"><i
+                                        class="las la-times"></i></span>
+                                <ul class="sidebar-menu-list">
+                                    <li class="sidebar-menu-list__item title ms-lg-0">Installation</li>
+                                    <li class="sidebar-menu-list__item">
+                                        <a href="#introduction" class="sidebar-menu-list__link">
+                                            <span class="icon"><i class="lar la-clone"></i></span>
+                                            <span class="text">Introduction</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-list__item">
+                                        <a href="#prerequisites" class="sidebar-menu-list__link">
+                                            <span class="icon"><i class="las la-rocket"></i></span>
+                                            <span class="text">Prerequisites</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-list__item">
+                                        <a href="#app-requirement" class="sidebar-menu-list__link">
+                                            <span class="icon"><i class="las la-server"></i></span>
+                                            <span class="text">APP Requirements </span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-list__item">
+                                        <a href="#installation" class="sidebar-menu-list__link">
+                                            <span class="icon"><i class="las la-cog"></i></span>
+                                            <span class="text">Installation</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-list__item">
+                                        <a href="#folder-structure" class="sidebar-menu-list__link">
+                                            <span class="icon"><i class="las la-folder-open"></i></span>
+                                            <span class="text">Folder Structure</span>
+                                        </a>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="documentation-body">
+                            <span class="sidebar-trigger d-lg-none d-inline-flex"><i class="las la-list"></i></span>
+                            <div class="each-item" id="introduction">
+                                <div class="documentation-body__top">
+                                    <ul class="breadcrumb-list">
+                                        <li class="breadcrumb-list__item">
+                                            <a href="#" class="breadcrumb-list__item-link">Docs</a>
+                                        </li>
+                                        <li class="breadcrumb-list__item"><i class="las la-angle-right"></i></li>
+                                        <li class="breadcrumb-list__item">
+                                            <span class="breadcrumb-list__item-text">
+                                                Introduction
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <h2 class="documentation-body__top-title">Introduction</h2>
+                                    <p class="documentation-body__top-desc">
+                                        Overview of OvoRide - The Complete Cross Platform Ride Sharing Solution
+                                    </p>
+                                </div>
+                                <div class="documentation-body__content">
+                                    <div class="documentation-body__content-item">
+                                        <p class="documentation-body__content-desc">
+                                            <strong>OvoRide</strong> is a complete ride-sharing solution designed to
+                                            simplify transportation and connect riders with drivers seamlessly. With
+                                            dedicated apps for both riders and drivers, plus a powerful admin panel for
+                                            total control, <strong>OvoRide</strong> offers a robust, feature-rich
+                                            platform for managing
+                                            ride services efficiently. Whether you're looking to launch a ride-hailing
+                                            business or optimize fleet operations, OvoRide is your all-in-one solution.
+                                        </p>
+                                        <div class="alert alert--base my-3" role="alert">
+                                            <div class="alert__content">
+                                                <p class="alert__desc">
+                                                    This documentation provides a clear overview of the entire system,
+                                                    summarizing the core processes for easy understanding. The platform
+                                                    includes an intuitive admin panel and landing page, designed for
+                                                    seamless use without any coding expertise. It also integrates
+                                                    multiple automated online payment gateways, simplifying global
+                                                    transactions effortlessly.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="documentation-body__content-desc">
+                                            Thank you for choosing <strong>OvoRide</strong> If you have any questions
+                                            not covered in
+                                            this documentation, please feel free to reach out to us via email. We’re
+                                            here to assist and will respond as promptly as possible. Thank you again!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="each-item" id="prerequisites">
+                                <div class="documentation-body__top">
+                                    <ul class="breadcrumb-list">
+                                        <li class="breadcrumb-list__item">
+                                            <a href="#" class="breadcrumb-list__item-link">Docs</a>
+                                        </li>
+                                        <li class="breadcrumb-list__item"><i class="las la-angle-right"></i></li>
+                                        <li class="breadcrumb-list__item">
+                                            <span class="breadcrumb-list__item-text">
+                                                prerequisites
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <h2 class="documentation-body__top-title">Prerequisites</h2>
+                                    <p class="documentation-body__top-desc">
+                                        All the prerequisites before starting with OvoRide.
+                                    </p>
+                                </div>
+                                <div class="documentation-body__content">
+                                    <div class="documentation-body__content-item">
+                                        <div class="alert alert--base my-3" role="alert">
+                                            <div class="alert__content">
+                                                <p class="alert__desc">
+                                                    To integrate essential services into OvoRide, you'll need to
+                                                    configure a Google Maps API key through the
+                                                    <strong>Google Cloud Console </strong>.
+                                                    For push notifications, set up Firebase in the
+                                                    <strong>Firebase Console</strong>,
+                                                    enabling required services and downloading the configuration files.
+                                                    Additionally, implement real-time features by creating a
+                                                    <strong>Pusher account</strong>,
+                                                    generating app credentials, and configuring them in your app for
+                                                    seamless integration.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <p class="documentation-body__content-desc">
+                                        <ol>
+                                            <li class="documentation-body__list-item">
+                                                <strong>Google Map API Key</strong>:
+                                                The Google Maps API is a <strong>paid service</strong> provided by
+                                                Google,
+                                                and its pricing
+                                                starts at $5 per 1000 requests, depending on the usage and service type.
+                                                The
+                                                cost is calculated based on factors such as the number of map loads,
+                                                directions requested, and geocoding operations performed.
+
+                                                To integrate this service into <strong>OvoRide</strong>, you need to
+                                                purchase and configure a
+                                                valid API key through the Google Cloud Console. Ensure that your account
+                                                has
+                                                a billing setup to <strong> enable the API functionality.</strong> For
+                                                detailed pricing and
+                                                usage limits, visit the
+                                                <a href="https://mapsplatform.google.com/pricing/" target="_blank">
+                                                    <strong>Google Maps API Pricing page <i
+                                                            class="la la-external-link"></i>
+                                                    </strong>
+                                                </a>
+                                            </li>
+                                            <li class="documentation-body__list-item">
+                                                <strong>Google Firebase</strong>:
+                                                Firebase is a powerful backend platform provided by Google,
+                                                essential for integrating features such as <strong>push
+                                                    notifications into OvoRide</strong>. To get started,
+                                                you need to set up your project in the Firebase Console and
+                                                configure it with your app. The setup involves creating a Firebase
+                                                project, enabling necessary services, and downloading the
+                                                configuration files to integrate with the app. For more info
+                                                visit the
+                                                <a href="https://firebase.google.com/" target="_blank">
+                                                    <strong>Google Firebase <i class="la la-external-link"></i>
+                                                    </strong>
+                                                </a>
+                                            </li>
+                                            <li class="documentation-body__list-item">
+                                                <strong>Pusher</strong>:
+                                                Pusher is a reliable service for implementing real-time features such as
+                                                live updates and instant notifications in <strong>OvoRide</strong>. To
+                                                set
+                                                it up, create an
+                                                account on the Pusher Dashboard and generate your <strong>app
+                                                    credentials.</strong>
+                                                You’ll
+                                                need to configure these credentials in your application to establish a
+                                                seamless connection. Pusher provides easy-to-follow
+                                                <a href="https://pusher.com/" target="_blank">
+                                                    <strong>Setup Documentation <i class="la la-external-link"></i>
+                                                    </strong>
+                                                </a>
+                                                to guide you through the integration process. Ensure you enable the
+                                                required
+                                                channels and events for optimal functionality.
+                                            </li>
+                                        </ol>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="each-item" id="app-requirement">
+                                <div class="documentation-body__top">
+                                    <ul class="breadcrumb-list">
+                                        <li class="breadcrumb-list__item">
+                                            <a href="#" class="breadcrumb-list__item-link">Docs</a>
+                                        </li>
+                                        <li class="breadcrumb-list__item"><i class="las la-angle-right"></i></li>
+                                        <li class="breadcrumb-list__item">
+                                            <span class="breadcrumb-list__item-text">Flutter App Installation
+                                                Requirements</span>
+                                        </li>
+                                    </ul>
+                                    <h2 class="documentation-body__top-title">
+                                        Flutter App Installation Requirements
+                                    </h2>
+                                    <p class="documentation-body__top-desc">
+                                        Below are the requirements needed to set up and install a Flutter app.
+                                    </p>
+                                </div>
+                                <div class="documentation-body__content">
+                                    <div class="documentation-body__content-item">
+                                        <div class="alert alert--base my-3" role="alert">
+                                            <div class="alert__content">
+                                                <p class="alert__desc">
+                                                    The following installation requirements specify the essential
+                                                    setup for developing and running
+                                                    Flutter apps smoothly. Meeting these requirements helps ensure
+                                                    optimal performance and compatibility.
+                                                    Please confirm your environment meets these prerequisites before
+                                                    proceeding.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="documentation-body__content-desc">
+                                        <ul class="documentation-body__list">
+                                            <li class="documentation-body__list-item">Flutter SDK (latest stable
+                                                version-> <b>3.24.4</b>)</li>
+                                            <li class="documentation-body__list-item">Dart SDK (bundled with Flutter
+                                                SDK-> <b>3.5.4</b>)</li>
+                                            <li class="documentation-body__list-item">Android Studio (for Android
+                                                development-> <b>Ladybug | 2024.2.1</b>)</li>
+                                            <li class="documentation-body__list-item">Xcode (for iOS development->
+                                                <b>16</b>)
+                                            </li>
+                                            <li class="documentation-body__list-item">
+                                                Android Studio
+                                                (<b>Recommended IDEs</b>)
+                                            </li>
+                                            <li class="documentation-body__list-item">
+                                                Java JDK <b>19</b> or later
+                                                (for Android builds)
+                                            </li>
+                                            <li class="documentation-body__list-item">Internet connection (for
+                                                package and plugin downloads)</li>
+                                            <li class="documentation-body__list-item">Sufficient storage (at least
+                                                10GB free space)</li>
+                                            <li class="documentation-body__list-item">Minimum 8GB RAM (16GB
+                                                recommended)</li>
+
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="each-item" id="installation">
+                                <div class="documentation-body__top">
+                                    <ul class="breadcrumb-list">
+                                        <li class="breadcrumb-list__item">
+                                            <a href="#" class="breadcrumb-list__item-link">Docs</a>
+                                        </li>
+                                        <li class="breadcrumb-list__item"><i class="las la-angle-right"></i></li>
+                                        <li class="breadcrumb-list__item">
+                                            <span class="breadcrumb-list__item-text"> Installation</span>
+                                        </li>
+                                    </ul>
+                                    <h2 class="documentation-body__top-title">
+                                        Installation
+                                    </h2>
+                                    <p class="documentation-body__top-desc">
+                                        Application installation process
+                                    </p>
+                                </div>
+                                <div class="documentation-body__content">
+                                    <div class="documentation-body__content-item">
+                                        <div class="alert alert--base my-3" role="alert">
+                                            <div class="alert__content">
+                                                <p class="alert__desc">
+                                                    Setting up Flutter and Android Studio is straightforward and can
+                                                    be completed in a few simple steps. Our setup guide
+                                                    is designed to make the process seamless and efficient, ensuring
+                                                    a smooth start for your development environment.
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <p class="documentation-body__content-desc">
+                                        <h4>Installation Steps:</h4>
+                                        <ol>
+                                            <li class="documentation-body__list-item">
+                                                <strong>Download and Install Flutter:</strong>
+                                                Visit the
+                                                <a href="https://flutter.dev/docs/get-started/install" target="_blank">
+                                                    official Flutter installation page
+                                                    <i class="la la-external-link"></i>
+                                                </a>
+                                                for the latest version and platform-specific setup instructions.
+                                                Follow the guidelines for your operating system
+                                                (Windows, macOS, or Linux) to complete the installation.
+                                            </li>
+                                            <li class="documentation-body__list-item">
+                                                <strong>Set Up Android Studio:</strong>
+                                                Android Studio is required for developing and running Flutter apps
+                                                on Android. Visit the
+                                                <a href="https://developer.android.com/studio" target="_blank">
+                                                    official Android Studio download page
+                                                    <i class="la la-external-link"></i>
+                                                </a>
+                                                and install the latest version. During setup, ensure that you
+                                                install the Android SDK and configure the necessary
+                                                environment variables for Flutter development.
+                                            </li>
+                                            <li class="documentation-body__list-item">
+                                                <strong>Verify Flutter Installation:</strong>
+                                                After installing both Flutter and Android Studio, open a terminal or
+                                                command prompt and run
+                                                <code>flutter doctor</code> to check if everything is set up
+                                                correctly. This command will display any missing
+                                                dependencies or configurations needed for development.
+                                            </li>
+                                            <li class="documentation-body__list-item">
+                                                <strong>Connect a Device or Set Up an Emulator:</strong>
+                                                Connect your Android device via USB or set up an Android emulator in
+                                                Android Studio to test your app.
+                                            </li>
+                                        </ol>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="each-item" id="folder-structure">
+                                <div class="documentation-body__top">
+                                    <ul class="breadcrumb-list">
+                                        <li class="breadcrumb-list__item">
+                                            <a href="#" class="breadcrumb-list__item-link">Docs</a>
+                                        </li>
+                                        <li class="breadcrumb-list__item"><i class="las la-angle-right"></i></li>
+                                        <li class="breadcrumb-list__item">
+                                            <span class="breadcrumb-list__item-text"> Folder Structure</span>
+                                        </li>
+                                    </ul>
+                                    <h2 class="documentation-body__top-title">
+                                        Folder Structure
+                                    </h2>
+                                    <p class="documentation-body__top-desc">
+                                        Important details about the application folder structure
+                                    </p>
+                                </div>
+                                <div class="documentation-body__content">
+                                    <div class="documentation-body__content-item">
+                                        <div class="alert alert--base my-3" role="alert">
+                                            <div class="alert__content">
+                                                <p class="alert__desc">
+                                                    After installation, your project folder will contain essential
+                                                    directories and files necessary for
+                                                    the proper functioning of the Flutter application.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="documentation-body__content-desc">
+                                        <div class="doc-body">
+                                            <ul class="file-tree file-list">
+                                                <li class="folder-root"><a href="#">assets</a>
+                                                    <ul>
+                                                        <li class="folder-root">fonts
+                                                            <ul></ul>
+                                                        </li>
+                                                        <li class="folder-root">
+                                                            images
+                                                            <ul></ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="folder-root"><a href="#">lib</a>
+                                                    <ul>
+                                                        <li class="folder-root"><a href="#">core</a>
+                                                            <ul>
+                                                                <li class="folder-root"><a href="#">di_service</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                                <li class="folder-root"><a href="#">helper</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                                <li class="folder-root"><a href="#">route</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                                <li class="folder-root"><a href="#">theme</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                                <li class="folder-root">
+                                                                    <a href="#">utils</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="folder-root"><a href="#">data</a>
+                                                            <ul>
+                                                                <li class="folder-root"><a href="#">controller</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                                <li class="folder-root"><a href="#">model</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                                <li class="folder-root"><a href="#">repo</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                                <li class="folder-root"><a href="#">services</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="folder-root"><a href="#">presentation</a>
+                                                            <ul>
+                                                                <li class="folder-root"><a href="#">components</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                                <li class="folder-root"><a href="#">screens</a>
+                                                                    <ul></ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>main.dart</li>
+                                                    </ul>
+                                                </li>
+                                                <li>pubspec.yaml</li>
+                                            </ul>
+                                        </div>
+                                        <br> <br>
+                                        <ul>
+                                            <li>
+                                                The <code>assets</code> folder contains all essential assets such as
+                                                images and fonts. This is the folder
+                                                to use if you need to add or update any images or custom fonts.
+                                            </li>
+                                            <br>
+                                            <li>
+                                                The <code>lib</code> folder is the main directory for all Dart code
+                                                in the application. It is typically organized
+                                                into subfolder such as <code>core</code> for utility files and
+                                                dependencies, <code>data</code> for managing API
+                                                calls and local data sources, and <code>view</code> for UI
+                                                components and screens.
+                                            </li> <br>
+                                            <li>
+                                                The <code>main.dart</code> file is the entry point of the Flutter
+                                                application where the app's root
+                                                widget and initial setup are defined.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                           
+
+                            <div class="each-item" id="support">
+                                <div class="documentation-body__top">
+                                    <ul class="breadcrumb-list">
+                                        <li class="breadcrumb-list__item">
+                                            <a href="#" class="breadcrumb-list__item-link">Docs</a>
+                                        </li>
+                                        <li class="breadcrumb-list__item"><i class="las la-angle-right"></i></li>
+                                        <li class="breadcrumb-list__item">
+                                            <span class="breadcrumb-list__item-text">Support</span>
+                                        </li>
+                                    </ul>
+                                    <h2 class="documentation-body__top-title">
+                                        Support
+                                    </h2>
+                                    <p class="documentation-body__top-desc">
+                                        How to get assistance
+                                    </p>
+                                </div>
+                                <div class="documentation-body__content">
+                                    <div class="documentation-body__content-item">
+                                        <div class="alert alert--base my-3" role="alert">
+                                            <div class="alert__content">
+                                                <p class="alert__desc">
+                                                    Thank you for purchasing our product! For any support or
+                                                    assistance,
+                                                    feel free to reach out to us via the provided email address. Our
+                                                    dedicated support team is available 24/7, ready to help with any
+                                                    questions, technical issues, or inquiries you may have. We are
+                                                    committed to providing prompt and reliable assistance to ensure
+                                                    a
+                                                    seamless experience with our product. Your satisfaction is our
+                                                    priority, and we are here to support you every step of the way.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="documentation-body__content-desc">
+                                        <h3 class="text-center">
+                                            Email Us:
+                                            <a href="/cdn-cgi/l/email-protection#45363035352a3731052a332a362a2930312c2a2b6b262a28">
+                                                <span class="text--base"><span class="__cf_email__" data-cfemail="f0838580809f8284b09f869f839f9c8584999f9ede939f9d">[email&#160;protected]</span></span>
+                                            </a>
+                                        </h3>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================== Dashboard End ==================== -->
+
+
+    <!-- Jquery JS -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap Bundle JS -->
+    <script src="assets/js/boostrap.bundle.min.js"></script>
+    <!-- Prism JS -->
+    <script src="assets/js/prism.js"></script>
+
+    <script src="assets/js/file-explore.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".file-tree").filetree();
+        });
+        $('.copy-code').on('click', function () {
+            const parent = $(this).closest('.documentation-body__code');
+            const icon = parent.find('i');
+            const codeText = parent.find('.code');
+
+            // Change the icon to a check-double icon
+            icon.removeClass('la-copy').addClass('la-check-double');
+
+            // Create a temporary textarea, copy the code text, and remove the textarea
+            const textarea = $('<textarea>').val(codeText.text().trim()).appendTo('body');
+            textarea[0].select();
+            document.execCommand('copy');
+            textarea.remove();
+
+            // Revert the icon back to copy after a delay
+            setTimeout(() => {
+                icon.removeClass('la-check-double').addClass('la-copy');
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>
