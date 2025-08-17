@@ -22,7 +22,7 @@
 
 
 
-    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <link rel="shortcut icon" href="https://myride.innowaix.com/assets/images/logo_icon/favicon.png">
 
     <!-- Bootstrap -->
 
